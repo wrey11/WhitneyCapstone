@@ -379,18 +379,22 @@ with tabs[4]:
 with tabs[5]:
     st.markdown("""
                         This application requires processing power - to ensure optimal results, please use the following hardware: \n
+                        System requirements for local deployment:\n
                         1. Intel Core i% processor (or equivalent) \n
                         2. 4 GB RAM \n
                         3. 15 GB available hard disk space \n
                         \n
-                        This application has been tested on Windows operating systems. Future expansion of product may include IOS. \n
+                        This application has been tested on Windows and IOS operating systems. \n
+                        This application has been tested for use by simultaneous users without error.
                         \n
                         This application is currently customized to meet the needs of UCI's Al4I 2020 Predictive Maintenance Dataset. For this reason,
                         there is no option for user-upload. \n
                         \n
                         If an element is not loading (i.e. a new graph after selecting from sidebar), please relaunch the applciation. \n
                         \n
-                        The application will auto-update based upon user input from the sidebar drop down menu(s) and checkbox(s). \n
+                        The application will auto-update if changes to the source code are made by the development team. \n
                         \n
                         For additional concerns and comments, please contact application developer at wdavis19@my.gcu.edu
+                        \n
+                        For more resources, please visit https://github.com/wrey11/WhitneyCapstone
                         """)
