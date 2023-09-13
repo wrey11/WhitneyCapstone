@@ -6,12 +6,11 @@ import numpy as np
 
 st.set_page_config(page_title='Whitney Rey Capstone Project', page_icon=":smiley_cat:", layout='centered')
 
-
 @st.cache_data
 def load_data():
-    df = pd.read_csv('C:\\Users\\mtoth\\OneDrive\\Documents\\Whitney School\\ai4i2020.csv')
+    file_path = "ai4i2020.csv"
+    df = pd.read_csv(file_path)
     return df
-
 
 df = load_data()
 print(df.head())
