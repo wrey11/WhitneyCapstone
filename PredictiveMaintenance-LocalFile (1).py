@@ -10,7 +10,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
 
-df = pd.read_csv('C:\\Users\\wrey\\OneDrive - sram.com\\Documents\\GCU\\DSC-570\\ai4i2020.csv')
+#update to include local path to saved data file.
+df = pd.read_csv('C:\\Users\....ai4i2020.csv')
 warnings.filterwarnings('ignore')
 
 
